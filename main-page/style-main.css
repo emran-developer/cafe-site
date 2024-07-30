@@ -1,0 +1,209 @@
+@font-face{
+    font-family: 'irsans';
+    src: local(IRANSans),
+    url(./font/FontsFree-Net-ir_sans.ttf) format(true type);
+}
+body{
+    color: #f0f0f0;
+    font-family: 'irsans';
+    background-color:black;
+    box-sizing: border-box;
+    margin: 0;
+}
+.space-header{
+    height:150px;
+}
+.header{
+    position: fixed;
+    min-width: 400px;
+    width: 80%;
+    height: 70px;
+    background-color: #ad6b01;
+    display: flex;
+    top: 50px;
+    left: 8vw;
+    border-radius:50px;
+    box-shadow:0 0 10px #9c6000;
+    justify-content: center;
+    align-items: center ;
+    gap:2%;
+    padding: 0 10px 0 10px;
+}
+.login,.about-us,.menu{
+    padding-top:5px;
+    max-width: 110px;
+    height:50px;
+    display: flex;
+    flex: 1;
+    text-shadow: 0 0 7px #9c6000;
+    border: 3px solid white;
+    background-color:none;
+    border-radius: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin-right:20px ;
+}
+.login:hover,.menu:hover,.about-us:hover{
+    color: #fff;
+    border: 2px solid #b86200;
+    background-color:#b86200;
+    box-shadow: 0 0 7px #854700;
+    cursor: pointer;
+}
+.login:active , .menu:active , .about-us:active {
+    background-color: #ffe57b;
+    text-shadow: 0 0 8px #000;
+    border: none;
+    box-shadow: 0 0 5px #ffe57b;
+}
+.text-head{
+    margin-right:auto;
+    margin-left: 10px;
+    color: white;
+    font-size: 40px;
+}
+.nav-text{
+    text-shadow: 0 0 7px #9c6000;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+.img-header{
+    background-image: url('./picture/coffee-head.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height:400px;
+    background-clip: cover;
+    background-size: 100%;
+}
+.text-img-header{
+    font-size: 200%;
+    text-align: center;
+    margin-top: 20px ;
+    padding-top:100px;
+}
+.all-box{
+    margin: 20px auto 0 auto;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8,.box9{
+    border-radius:30px ;
+    background-size: 250px;
+    height: 250px;
+    width: 250px;
+    border: 3px solid #9c6000;
+    box-shadow: 0 0 5px #9c6000;
+    margin: 15px;
+}
+.box1:hover,.box2:hover,.box3:hover,.box4:hover,.box5:hover,.box6:hover,.box7:hover,.box8:hover,.box9:hover{
+
+    box-shadow: 0 0 20px #ffe57b;
+    border-color: #ffe57b;
+}
+.name-box{
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    padding-top: 140px;
+}
+.title-menu{
+    display: block;
+    text-align: center;
+    margin-top:400px;
+    font-size: 50px;
+    font-style: italic;
+}
+.box1{
+    background: url('./picture/Cappuccino.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box2{
+    background: url('./picture/Cortado.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box3{
+    background: url('./picture/Caffè\ macchiato.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box4{
+    background: url('./picture/Flat\ white.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box5{
+    background: url('./picture/Latte..jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box6{
+    background: url('./picture/Affogato.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box7{
+    background: url('./picture/Mocha.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box8{
+    background: url('./picture/Espresso.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box9{
+    background: url('./picture/Americano.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-text{
+    margin-top:400px;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    background-color: #ad6b01;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.icon{
+    width: 50px;
+    margin-top: 4px;
+}
+.btn{
+    width: 110px;
+    height: 45px;
+    border-radius: 100px;
+    border:2px solid #fff;
+    background-color: transparent;
+    display: block;
+    margin: 0 auto;
+    margin-top: -15px;
+    color: #fff;
+    font-size: 18px;
+    font-style: italic;
+}
+button:active{
+    background-color: #ffe57b;
+    text-shadow: 0 0 8px #000;
+    border: none;
+    box-shadow: 0 0 5px #ffe57b;
+}
